@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MenuPage } from './menu.page';
 
 import { MenuPageRoutingModule } from './menu-routing.module';
+import { MenuComponentModule } from '@components/menu-card/menu.module';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { MenuPageRoutingModule } from './menu-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    MenuPageRoutingModule
+    MenuPageRoutingModule,
+    MenuComponentModule
   ],
   declarations: [MenuPage]
 })
