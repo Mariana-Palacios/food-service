@@ -6,6 +6,7 @@ import { ModalComponentModule } from './modal/modal.module';
 import { IonicModule } from '@ionic/angular';
 import { ProgressBarComponentModule } from './progress-bar/progress-bar.module';
 import { ChartComponentModule } from './chart/chart.model';
+import { HeaderComponentModule } from './header/header.module';
 
 @NgModule({
   imports: [
@@ -14,13 +15,15 @@ import { ChartComponentModule } from './chart/chart.model';
         ProgressBarComponentModule,
         ChartComponentModule,
         IonicModule,
+        HeaderComponentModule
   ],
   exports:[
         MenuComponentModule,
         TabsComponentModule,
         ModalComponentModule,
         ProgressBarComponentModule,
-        ChartComponentModule      
+        ChartComponentModule,
+        HeaderComponentModule
   ]
 })
 export class ComponentsModule { }

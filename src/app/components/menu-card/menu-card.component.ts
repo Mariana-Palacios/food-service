@@ -9,6 +9,5 @@ import { Component, Input } from '@angular/core';
 export class MenuComponent  {
 
   constructor() { }
-  
 
 }

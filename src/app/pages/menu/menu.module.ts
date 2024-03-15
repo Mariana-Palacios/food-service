@@ -6,6 +6,7 @@ import { MenuPage } from './menu.page';
 
 import { MenuPageRoutingModule } from './menu-routing.module';
 import { MenuComponentModule } from '@components/menu-card/menu.module';
+import { ModalComponentModule } from '@components/modal/modal.module';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MenuComponentModule } from '@components/menu-card/menu.module';
     FormsModule,
     IonicModule,
     MenuPageRoutingModule,
-    MenuComponentModule
+    MenuComponentModule,
+    ModalComponentModule
   ],
   declarations: [MenuPage]
 })
